@@ -88,8 +88,8 @@
                         <a class="mobile-menu" id="mobile-collapse" href="#!">
                             <i class="feather icon-menu"></i>
                         </a>
-                        <a href="index.html">
-                            <img class="img-fluid" src="../files/assets/images/logo.png" alt="Dashboard-Logo" />
+                        <a href="{{ url('/') }}">
+                            <img class="img-fluid" src="{{ asset('images/logo.png') }}" alt="Dashboard-Logo" />
                         </a>
                         <a class="mobile-options">
                             <i class="feather icon-more-horizontal"></i>

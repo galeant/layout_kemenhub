@@ -11,6 +11,9 @@
 |
 */
 
+Route::get('login',function(){
+    return view('login');
+});
 Route::get('/', 'DashboardController@index');
 Route::get('upload', 'UploadController@index');
 Route::get('report', 'ReportController@index');
