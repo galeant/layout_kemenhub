@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('layout');
-});
+Route::get('/', 'DashboardController@index');
+Route::get('upload', 'UploadController@index');
+Route::get('report', 'ReportController@index');
